@@ -1,0 +1,61 @@
+/* custom css for question management view */
+.main-qus,.solid-border{
+    border: 0.5px solid #bfbfbf;
+    width: 90%;
+    margin: 10px;
+} 
+.solid-border{
+    border: 1px solid #bfbfbf;
+    width: 80%;
+    margin-top: 10px!important;
+    margin: 10%;
+}
+a:link {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bfbfbf;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a#cancel{
+    margin:6px;
+}
+
+h1{
+    color: #48afc7;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-bottom: 0.5px solid #bfbfbf;
+    padding:2px;
+}
+
+#add-new-qus{
+    text-transform: uppercase;
+}
+
+#buttons{
+    border-top: 0.5px solid #bfbfbf;
+    padding:2px;
+}
+
+#qus-container{
+    min-height: 300px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+input.parsley-error {
+    border: 1px solid red;
+}
+
+.parsley-error-list {
+    color: red;
+}
+
+.parsley-required{
+    color:red;
+}
